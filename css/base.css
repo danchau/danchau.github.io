@@ -2,6 +2,7 @@ body {
   font-family: "Roboto";
   font-weight: 400;
   background-color: #EFEFEF;
+  margin-bottom: 40px;
 }
 .starter-template {
   padding: 40px 15px;
