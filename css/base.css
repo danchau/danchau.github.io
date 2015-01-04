@@ -145,6 +145,13 @@ body {
     opacity: 0.5;
 }
 
+.container hr{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    opacity: 0.5;
+}
+
 video#bgvid {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
@@ -156,6 +163,11 @@ video#bgvid {
 .homepage-hero img {
   height: 200px;
   margin-top: 100px;
+}
+
+.contact-hero {
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .homepage-links {
@@ -189,4 +201,17 @@ video#bgvid {
 .homepage-footer a:hover{
   text-decoration: none;
   opacity: 0.8;
+}
+
+.contact-hero a{
+  color: #000;
+}
+
+.contact-hero a:hover{
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.contact-hero a:link {
+  text-decoration: none;
 }
