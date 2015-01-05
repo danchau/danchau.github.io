@@ -67,7 +67,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+    color: #CF5300;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -183,7 +183,7 @@ video#bgvid {
 
 .homepage-links a:hover{
   text-decoration: none;
-  opacity: 0.8;
+  color: #CF5300;
 }
 
 .homepage-footer {
@@ -200,7 +200,7 @@ video#bgvid {
 
 .homepage-footer a:hover{
   text-decoration: none;
-  opacity: 0.8;
+  color: #CF5300;
 }
 
 .contact-hero a{
@@ -209,7 +209,7 @@ video#bgvid {
 
 .contact-hero a:hover{
   text-decoration: none;
-  opacity: 0.8;
+  color: #CF5300;
 }
 
 .contact-hero a:link {
