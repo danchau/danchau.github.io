@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto";
+  font-family: "Open Sans Condensed";
   font-weight: 400;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
   margin-bottom: 40px;
 }
 .starter-template {
@@ -156,17 +156,28 @@ body {
     opacity: 0.5;
 }
 
-video#bgvid {
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(polina.jpg) no-repeat;
+.container-right-home {
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 110px;
+  margin-top: 100px;
+  font-family: 'Open Sans Condensed';
+  font-weight: 500;
+  font-style: italic;
+}
+
+img#bgimg {
+  position: fixed; left: 0; bottom: 0;
+  min-width: 50%; min-height: 100%;
+  width: 50%; height: 100%; z-index: -100;
+  background: url("https://farm8.staticflickr.com/7490/16195888452_8f4492f50a_h.jpg") no-repeat;
   background-size: cover;
 }
 
 .homepage-hero img {
-  height: 275px;
+  height: 100px;
   margin-top: 100px;
+  margin-left: 50px;
 }
 
 .contact-hero {
@@ -175,15 +186,16 @@ video#bgvid {
 }
 
 .homepage-links {
-  color: #000;
+  margin-left: 40px;
+  color: #FFFFFF;
   font-size: 16px;
-  line-height: 30px;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  position: fixed;
+  bottom: 60px;
+  height: 0.75cm;
 }
 
 .homepage-links a{
-  color: #000;
+  color: #FFFFFF;
 }
 
 .homepage-links a:hover{
