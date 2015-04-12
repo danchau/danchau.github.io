@@ -160,7 +160,7 @@ body {
   font-size: 18px;
   margin-left: 40px;
   margin-right: 110px;
-  margin-top: 100px;
+  margin-top: 130px;
   font-family: 'Open Sans Condensed';
   font-weight: 500;
   font-style: italic;
@@ -170,13 +170,13 @@ img#bgimg {
   position: fixed; left: 0; bottom: 0;
   min-width: 50%; min-height: 100%;
   width: 50%; height: 100%; z-index: -100;
-  background: url("https://farm8.staticflickr.com/7490/16195888452_8f4492f50a_h.jpg") no-repeat;
+  background: url("https://farm8.staticflickr.com/7603/16928981988_9ffaae1d19_k.jpg") no-repeat;
   background-size: cover;
 }
 
 .homepage-hero img {
   height: 100px;
-  margin-top: 100px;
+  margin-top: 130px;
   margin-left: 50px;
 }
 
