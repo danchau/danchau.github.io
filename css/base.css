@@ -14,7 +14,7 @@ body {
 
 }
 .my-simple-gallery img {
-  width: 425px;
+  width: 500px;
   min-width: 300px;
   height: auto;
   opacity: 1.0;
@@ -126,7 +126,7 @@ body {
 .navbar-brand img {
   margin-top: -15px;
 	height: 250%;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .navbar-head {
