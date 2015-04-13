@@ -214,6 +214,7 @@ img#bgimg {
   height: 100px;
   margin-top: 110px;
   margin-left: 50px;
+  position: fixed;
 }
 
 .contact-hero {
@@ -228,6 +229,10 @@ img#bgimg {
   position: fixed;
   bottom: 60px;
   height: 0.75cm;
+}
+
+.homepage-description {
+  margin-bottom: 100px;
 }
 
 .homepage-links a{
