@@ -72,7 +72,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #CF5300;
+    color: #000;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -129,15 +129,37 @@ body {
   margin-left: 100px;
 }
 
+.navbar-contact img {
+  height: 20px;
+  opacity: 0.5;
+}
+
+.navbar-contact img:hover {
+  opacity: 1.0;
+}
+
+.navbar-contact{
+  margin-right: 50px;
+}
+
 .navbar-head {
   font-family: "Montserrat";
-  font-size: 50px;
+  font-size: 40px;
   color: #000;
+}
+
+.blog-post {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  width: 100%;
 }
 
 .blog-post h1{
   font-family: "Cabin";
   font-weight: 700;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .blog-post em{
@@ -148,7 +170,10 @@ body {
 }
 
 .blog-post p{
-  font-size: 16px;
+  font-size: 13px;
+  font-family: "Arimo";
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .blog-post hr{
@@ -156,10 +181,8 @@ body {
     border-style: inset;
     border-width: 1px;
     opacity: 0.5;
-}
-
-.blog-post-video{
-  padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .container hr{
@@ -213,7 +236,19 @@ img#bgimg {
 
 .homepage-links a:hover{
   text-decoration: none;
-  color: #CF5300;
+  color: #696969;
+}
+
+.homepage-links img {
+  margin-top: -5px;
+  height: 20px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.homepage-links img:hover {
+  -webkit-filter: invert(50%);
+  filter: invert(50%);
 }
 
 .homepage-footer {
@@ -235,6 +270,7 @@ img#bgimg {
 
 .contact-hero a{
   color: #000;
+  font-family: "Arimo";
 }
 
 .contact-hero a:hover{
