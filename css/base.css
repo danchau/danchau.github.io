@@ -14,7 +14,7 @@ body {
 
 }
 .my-simple-gallery img {
-  width: 340px;
+  width: 360px;
   min-width: 300px;
   height: auto;
   opacity: 1.0;
