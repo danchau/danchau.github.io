@@ -149,10 +149,14 @@ body {
 }
 
 .blog-post {
-  margin-right: auto;
-  margin-left: auto;
   text-align: left;
   width: 100%;
+}
+
+.blog-post iframe{
+  border-width: 1px;
+  width: calc(100% - 200px);
+  margin-left: 100px;
 }
 
 .blog-post h1{
