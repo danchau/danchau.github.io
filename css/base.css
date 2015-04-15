@@ -129,10 +129,13 @@ body {
   margin-left: 100px;
 }
 
+.navbar-contact {
+  margin-right: 40px;
+}
+
 .navbar-contact img {
   height: 20px;
   opacity: 0.5;
-  margin-right: 40px;
 }
 
 .navbar-contact img:hover {
