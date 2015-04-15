@@ -132,14 +132,11 @@ body {
 .navbar-contact img {
   height: 20px;
   opacity: 0.5;
+  margin-right: 40px;
 }
 
 .navbar-contact img:hover {
   opacity: 1.0;
-}
-
-.navbar-contact{
-  margin-right: 50px;
 }
 
 .navbar-head {
