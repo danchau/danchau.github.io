@@ -2,7 +2,9 @@ body {
   font-family: "Open Sans Condensed";
   font-weight: 400;
   background-color: #FFFFFF;
-  margin-bottom: 40px;
+  height: 100%;
+  position: absolute;
+  min-width: 0px;
 }
 .starter-template {
   padding: 40px 15px;
@@ -32,6 +34,12 @@ body {
   display: none;
 }
 
+@media (max-width: 768px){
+  .my-simple-gallery img {
+    width: 100%;
+  }
+}
+
 .gallery-hero img {
 	width: 100%;
 }
@@ -56,11 +64,12 @@ body {
     border-color: #FFFFFF;
     padding-top: 30px;
     font-family: "Arimo";
-    margin-right: 40px;
+    margin-right: 0px;
 }
 /* title */
 .navbar-default .navbar-brand {
     color: #777;
+    padding-left: 0px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -113,24 +122,11 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-    }
-}
 
 .navbar-brand img {
   margin-top: -15px;
 	height: 250%;
   margin-left: 100px;
-}
-
-.navbar-contact {
-  margin-right: 40px;
 }
 
 .navbar-contact img {
@@ -142,28 +138,35 @@ body {
   opacity: 1.0;
 }
 
+.navbar-contact{
+  margin-right: 50px;
+}
+
 .navbar-head {
   font-family: "Montserrat";
   font-size: 40px;
   color: #000;
 }
 
+.navbar-collapse {
+  border-top: none;
+}
+
 .blog-post {
   text-align: left;
   width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .blog-post iframe{
   border-width: 1px;
-  width: calc(100% - 200px);
-  margin-left: 100px;
+  width: 100%;
 }
 
 .blog-post h1{
   font-family: "Cabin";
   font-weight: 700;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .blog-post em{
@@ -176,8 +179,6 @@ body {
 .blog-post p{
   font-size: 13px;
   font-family: "Arimo";
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .blog-post hr{
@@ -185,11 +186,22 @@ body {
     border-style: inset;
     border-width: 1px;
     opacity: 0.5;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
-.container hr{
+@media(max-width: 768px){
+  .blog-post {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-brand img {
+    margin-left: 15px;
+  }
+  .navbar-contact {
+    margin-right: 0px;
+  }
+}
+
+.container-links hr{
     display: block;
     border-style: inset;
     border-width: 1px;
@@ -206,19 +218,41 @@ body {
   font-style: italic;
 }
 
-img#bgimg {
-  position: fixed; left: 0; bottom: 0;
-  min-width: 50%; min-height: 100%;
-  width: 50%; height: 100%; z-index: -100;
+.container-left{
+  min-height: 400px;
+}
+
+.bgimg {
   background: url("https://farm8.staticflickr.com/7603/16928981988_9ffaae1d19_k.jpg") no-repeat;
   background-size: cover;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  z-index: -1000;
+  margin-left: -15px;
+}
+
+@media (min-width: 992px) {
+  .container-left {
+    height: 100%;
+  }
+  .homepage-hero img {
+    position: fixed;
+  }
+}
+
+@media (max-width: 991px){
+  .bgimg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+  }
 }
 
 .homepage-hero img {
-  height: 100px;
+  max-width: 400px;
   margin-top: 110px;
   margin-left: 50px;
-  position: fixed;
 }
 
 .contact-hero {
@@ -237,6 +271,51 @@ img#bgimg {
 
 .homepage-description {
   margin-bottom: 100px;
+}
+
+@media (max-width: 991px){
+  .container-right-home{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+  .homepage-description{
+    margin-bottom: 40px;
+  }
+  .homepage-hero img {
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+  }
+  .homepage-links {
+    position: absolute;
+    top: 350px;
+    width: calc(100% - 30px);
+    margin-left: 0px;
+  }
+  .container-links{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 410px){
+  .social-links {
+    line-height: 40px;
+    display: block;
+  }
+  .homepage-links {
+    top: 320px;
+  }
+}
+
+@media (max-width: 430px){
+  .homepage-hero img {
+    width: calc(100% - 70px);
+    margin-right: 35px;
+    margin-left: 35px;
+  }
 }
 
 .homepage-links a{
