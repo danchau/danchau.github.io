@@ -5,6 +5,7 @@ body {
   height: 100%;
   position: absolute;
   min-width: 0px;
+  width: 100%;
 }
 .starter-template {
   padding: 40px 15px;
