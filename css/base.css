@@ -223,7 +223,7 @@ body {
 }
 
 .container-left{
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .bgimg {
@@ -317,19 +317,19 @@ body {
     top: 320px;
   }
   .bgimg {
-    height: 100vh;
+    height: 100%;
     position: absolute;
   }
   .homepage-links {
-    top: calc(100vh - 150px);
+    top: calc(100% - 150px);
   }
 }
 
 @media (max-width: 414px){
   .homepage-hero img {
     width: calc(100% - 100px);
-    margin-right: 35px;
-    margin-left: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 
