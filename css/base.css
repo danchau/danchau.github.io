@@ -20,6 +20,10 @@ body {
   min-width: 300px;
   height: auto;
   opacity: 1.0;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
 
 .my-simple-gallery img:hover {
@@ -27,7 +31,6 @@ body {
 }
 .my-simple-gallery figure {
   display:inline-block;
-  margin: 2px;
   height: auto;
 }
 .my-simple-gallery figcaption {
