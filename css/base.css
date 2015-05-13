@@ -26,6 +26,18 @@ body {
   margin-top: 0px;
 }
 
+@media (max-width: 1370px) {
+  .my-simple-gallery img {
+    width: calc((100vw - 208px) / 3);
+  }
+}
+
+@media (max-width: 1000px) {
+  .my-simple-gallery img {
+    width: calc((100vw - 204px) / 2);
+  }
+}
+
 .my-simple-gallery img:hover {
   opacity: 0.75;
 }
