@@ -232,7 +232,7 @@ body {
 }
 
 .bgimg {
-  background: url("https://farm8.staticflickr.com/7603/16928981988_9ffaae1d19_k.jpg") no-repeat;
+  background: url("https://c1.staticflickr.com/9/8714/17395073859_dc76d33738_k.jpg") no-repeat;
   background-size: cover;
   position: fixed;
   width: 50%;
@@ -240,6 +240,8 @@ body {
   z-index: -1000;
   margin-left: -15px;
 }
+
+
 
 @media (min-width: 992px) {
   .container-left {
@@ -263,7 +265,7 @@ body {
   margin-left: calc( ( ( 50vw - 400px) / 2) - 15px);
   margin-right: calc( ( 50vw - 400px) / 2);
   margin-top: 110px;
-  opacity: 0.25;
+  opacity: 0.35;
 }
 
 .contact-hero {
