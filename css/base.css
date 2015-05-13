@@ -279,8 +279,8 @@ body {
 }
 
 .homepage-links {
-  margin-left: calc( ( ( 50vw - 380px) / 2) - 15px);
-  margin-right: calc( ( 50vw - 380px) / 2);
+  margin-left: calc( ( ( 50vw - 365px) / 2) - 15px);
+  margin-right: calc( ( 50vw - 365px) / 2);
   color: #FFFFFF;
   font-size: 16px;
   position: fixed;
