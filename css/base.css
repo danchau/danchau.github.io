@@ -333,9 +333,9 @@ body {
 
 @media (max-width: 414px){
   .homepage-hero img {
-    width: calc(100% - 100px);
-    margin-right: 50px;
-    margin-left: 50px;
+    width: calc(100% - 150px);
+    margin-right: 75px;
+    margin-left: 75px;
   }
 }
 
