@@ -67,12 +67,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 978px) {
-    .gallery {
-    	padding-top: 0px;
-    }
-}
-
 /* navbar */
 .navbar-default {
     background-color: #FFFFFF;
