@@ -199,6 +199,7 @@ body {
 
 .social-links {
   margin-left: 35px;
+  margin-right: 5px;
 }
 
 @media(max-width: 768px){
