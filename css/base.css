@@ -14,6 +14,7 @@ body {
 
 .my-simple-gallery {
   float: left;
+  margin-bottom: 40px;
 
 }
 .my-simple-gallery img {
