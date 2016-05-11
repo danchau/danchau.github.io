@@ -275,7 +275,7 @@ body {
   margin-left: calc( ( ( 50vw - 400px) / 2) - 15px);
   margin-right: calc( ( 50vw - 400px) / 2);
   margin-top: 110px;
-  opacity: 0.40;
+  opacity: 0.60;
 }
 
 .contact-hero {
