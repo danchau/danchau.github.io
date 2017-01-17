@@ -238,10 +238,8 @@ body {
   min-height: 100%;
 }
 
-
-
 .bgimg {
-  background: url("https://c1.staticflickr.com/1/532/32254747521_5674fd44ff_o.jpg") no-repeat;
+  background: url("https://farm8.staticflickr.com/7216/26340591964_6dfa7c7d26_k.jpg") no-repeat;
   background-size: cover;
   position: fixed;
   width: calc(50% + 2px);
